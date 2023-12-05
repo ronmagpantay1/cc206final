@@ -63,7 +63,7 @@ class _ChatPageState extends State<ChatPage> {
       }
     }).toList();
     final request = ChatCompleteText(
-      model: GptTurbo0301ChatModel(),
+      model: GptTurbo16k0631Model(),
       messages: _messagesHistory,
       maxToken: 200,
     );
