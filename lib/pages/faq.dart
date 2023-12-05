@@ -19,6 +19,15 @@ class _faqpageState extends State<faqpage> {
         appBar: AppBar(
           backgroundColor: const Color.fromARGB(156, 134, 115, 3),
           title: const Text('FAQs'),
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ChatPage()),
+              );
+            },
+          ),
         ),
         // existing code
 

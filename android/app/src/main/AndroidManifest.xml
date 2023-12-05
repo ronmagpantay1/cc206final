@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="AMBATU.HELP"
+        android:label="ambatu.help"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

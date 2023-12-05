@@ -132,7 +132,7 @@ class _SettingsPageState extends State<SettingsPage> {
                         ),
                       ),
                       child: const Text(
-                        'Save Settings',
+                        'Save',
                         style: TextStyle(
                           color: Colors.black,
                         ),
